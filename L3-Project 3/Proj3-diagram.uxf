@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>520</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>410</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Bank
+--
++ accounts: string
++ accounts_sorted: string
++ filename: string
+--
++ __intit__()
++ __str__(): string
++ makeKey(): string
++ add()
++ remove(): string
++ get(): string
++ computeInterest(): int
++ getKeys(): string
++ save()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>440</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>SavingsAccount
+--
+
+--
++ __intit__()
++ __str__(): string
++ getBalance(): int
++ getName(): string
++ getPin(): int
++ deposit(): int
++ withdraw(): int
++ computeInterest(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
