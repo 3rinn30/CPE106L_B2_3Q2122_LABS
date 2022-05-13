@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1116</x>
+      <y>372</y>
+      <w>252</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>mainGame
+--
++ move: string
++ gameover: string
+--
++ lost()
++ initialBoard()
++ winner ()
++ callMove(): string
++ test()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>696</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>mergeLeft
+--
++ boardsize: int
+--
++ mergeoneRowL(): int
++ mergeLeft(): int
++ returnMergeLeft()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1248</x>
+      <y>840</y>
+      <w>252</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>temporaryBoard
+--
++ boardSize: int
++ boardFill: int
++ currentRow: int
++ biggest: int
++ element: int
+--
++ display(boardFill): int
++ newValue(): int
++ AddValue(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>324</x>
+      <y>672</y>
+      <w>948</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;200.0;770.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>600</y>
+      <w>444</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>300.0;10.0;300.0;140.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1248</x>
+      <y>600</y>
+      <w>156</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;110.0;140.0;110.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>312</y>
+      <w>336</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>260.0;50.0;260.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>456</y>
+      <w>288</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>564</y>
+      <w>288</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>492</y>
+      <w>120</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>
+
+
+
+Moves</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>312</y>
+      <w>288</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>456</y>
+      <w>240</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>576</y>
+      <w>240</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>672</y>
+      <w>288</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>132</y>
+      <w>1080</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;380.0;10.0;380.0;10.0;10.0;880.0;10.0;880.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1536</x>
+      <y>504</y>
+      <w>120</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>
+board</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1488</x>
+      <y>564</y>
+      <w>132</w>
+      <h>372</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;90.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1356</x>
+      <y>516</y>
+      <w>204</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>552</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>mergeRight
+--
++ boardsize: int
+--
++ mergeRight(): int
++ returnMergeRight()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>264</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>mergeUp
+--
++ boardsize: int
+--
++ mergeUp(): int
++ returnMergeUp()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>408</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>mergeDown
+--
++ boardsize: int
+--
++ mergeDown(): int
++ returnMergeDown()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>168</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>transposeBoard
+--
++ boardsize: int
++ currBoard: int
+--
++ transpose(currBoard)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>936</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>inverseRow
+--
++ boardsize: int
++ row: int
+--
++ inverse(row)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>612</y>
+      <w>120</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0;10.0;100.0;80.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>636</y>
+      <w>144</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;300.0;100.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>324</y>
+      <w>120</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>204</y>
+      <w>228</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>170.0;80.0;50.0;80.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>468</y>
+      <w>144</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>288</y>
+      <w>180</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;import&gt;</panel_attributes>
+    <additional_attributes>130.0;120.0;10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
